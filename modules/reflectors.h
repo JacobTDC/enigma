@@ -1,0 +1,8 @@
+#ifndef ENIGMA_REFLECTORS_H
+#define ENIGMA_REFLECTORS_H
+
+std::string ReflectorA = "EJMZALYXVBWFCRQUONTSPIKHGD";
+std::string ReflectorB = "YRUHQSLDPXNGOKMIEBFZCWVJAT";
+std::string ReflectorC = "FVPJIAOYEDRZXWGCTKUQSBNMHL";
+
+#endif

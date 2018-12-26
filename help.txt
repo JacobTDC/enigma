@@ -1,0 +1,22 @@
+A command line Enigma Machine that supports rotor and reflector
+settings, as well as a plugboard. Uses STDIN.
+
+Usage:
+  enigma [options]
+
+Example:
+  echo "Hello there!" | enigma -pCMD
+
+Options:
+  -h -- shows this help screen
+  -p <pos> -- sets the rotor positions; default AAA
+  -w <rotors> -- selects the rotors to use; default I,II,III
+  -u <reflector> -- selects the reflector to use; default  B
+  -s <plugboard> -- sets the plugboard
+
+Details:
+  -- The Enigma Machine is a (fairly) famous cipher device used
+    by the Germans during World War II.
+  -- While the option switches may seem random, they are actually
+      from the German names of the components (except -h and -p).
+
