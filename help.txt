@@ -11,7 +11,9 @@ Options:
   -h -- shows this help screen
   -p <pos> -- sets the rotor positions; default AAA
   -w <rotors> -- selects the rotors to use; default I,II,III
+    - avalible rotors: I, II, III, IV, V
   -u <reflector> -- selects the reflector to use; default  B
+    - avalible reflectors: A, B, C
   -s <plugboard> -- sets the plugboard
 
 Details:
